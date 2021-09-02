@@ -1,0 +1,101 @@
+/* For mobile */
+@media only screen and (max-width: 768px) {
+    body {
+      width: 100%;
+    }
+  
+    .container {
+      width: 100%;
+      height: 710px;
+      margin: auto;
+    }
+  
+    .image-up-left,
+    .image-down-right {
+      width: 275px;
+    }
+  
+    .image-up-left {
+        margin-left: -4%;
+    }
+  
+    .decorative-01,
+    .decorative-02 {
+      width: 220px;
+    }
+  
+    .decorative-02 {
+        margin-left: 43%;
+        margin-top: -259px;
+    }
+  
+    .decorative-01 {
+        margin-top: 12%;
+        margin-left: -6%;;
+    }
+  
+    .image-down-right {
+        margin-left: 43%;
+        margin-top: -204px;
+    }
+  
+    /* Header Caption */
+    .header-caption {
+        margin-top: 5%;
+        transform: translate(-50%, -50%);
+        /* -ms-transform: translate(-50%, -50%); */
+        margin-left: 50%;
+    }
+  
+    .header-caption h4 {
+      font-family: "Cormorant Garamond", Sans-serif;
+      font-size: 12px;
+      font-weight: 600;
+      text-transform: uppercase;
+      line-height: 1em;
+      letter-spacing: 1px;
+      color: var(--color-maroon) !important;
+    }
+  
+    .header-caption h3 {
+      font-family: "Montserrat", Sans-serif;
+      font-size: 10px;
+      font-size: 18px;
+      font-weight: 400;
+      color: var(--color-maroon) !important;
+    }
+  
+    /* Caption */
+    .name {
+      font-family: "Rouge Script", Sans-serif;
+      font-size: 60px;
+      font-weight: 400;
+      color: var(--color-maroon) !important;
+    }
+  
+    .symbol {
+      line-height: 40px;
+      color: var(--color-dark-gray) !important;
+      font-size: 85px;
+      font-weight: 400;
+      font-family: "Rouge Script", Sans-serif;
+    }
+  
+    /* Navbar */
+    .navbar {
+      width: 45%;
+      height: 70px;
+      margin: auto;
+      top: 5px;
+      left: 24px;
+      color: var(--color-white-gray);
+      position: absolute;
+      background: var(--color-half-pink) !important;
+    }
+  
+    .navbar a.active {
+      background-color: var(--color-maroon);
+      color: white;
+    }
+  }
+  
